@@ -174,3 +174,11 @@ p {
     font-size: 23px;
   }
 }
+/* 5. 機關招牌版面 */
+.site-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  padding: 32px 16px 24px;
+}
