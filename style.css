@@ -182,3 +182,18 @@ p {
   gap: 8px;
   padding: 32px 16px 24px;
 }
+
+/* 6. 大廳主視覺版面 */
+.hero {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 12px;
+  padding: 32px 16px;
+}
+
+/* 7. 清除預設 Margin */
+.site-header > *,
+.hero > * {
+  margin: 0;
+}
