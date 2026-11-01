@@ -1,0 +1,48 @@
+
+/* =================================
+   JINXISTRY - Global Styles
+   ================================= */
+
+/* 1. 基本色彩設定 */
+:root {
+  --color-paper: #F2E6C9;
+  --color-green: #526B4F;
+  --color-red: #B85C46;
+  --color-yellow: #D5AD4B;
+  --color-blue: #668A91;
+  --color-brown: #594638;
+}
+
+/* 2. 全站基本設定 */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background-color: var(--color-paper);
+  color: var(--color-brown);
+  font-family: Georgia, "Noto Serif TC", serif;
+  text-align: center;
+}
+
+/* 3. 首頁標題 */
+h1 {
+  color: var(--color-green);
+  font-size: 48px;
+  letter-spacing: 5px;
+  margin-bottom: 12px;
+}
+
+h2 {
+  color: var(--color-red);
+  font-size: 24px;
+  margin-top: 0;
+}
+
+/* 4. 說明文字 */
+p {
+  font-size: 16px;
+  line-height: 1.8;
+}
